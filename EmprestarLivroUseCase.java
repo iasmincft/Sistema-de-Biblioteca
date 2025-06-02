@@ -1,4 +1,4 @@
-public class EmprestarLivroUseCasee {
+public class EmprestarLivroUseCase {
     public void executar(Usuario usuario, Livro livro) {
         if (!livro.isDisponivel()) {
             System.out.println("Livro não está disponível.");
